@@ -50,7 +50,12 @@ enableEmoji = true
   keywords = []
   description = "Anislet's Blog"
   dateFormat = "2006-01-02"
-  images = ["/images/avatar.png"]
+  images = ["https://assets.anislet.dev/images/blog/favicon.png"]
+
+  [params.app]
+    title = "Anislet's Blog"
+    noFavicon = false
+    svgFavicon = "https://assets.anislet.dev/images/blog/favicon.svg"
 
   [params.search]
     enable = true
