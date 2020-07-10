@@ -50,12 +50,12 @@ enableEmoji = true
   keywords = []
   description = "Anislet's Blog"
   dateFormat = "2006-01-02"
-  images = ["https://assets.anislet.dev/images/blog/favicon.png"]
+  images = ["https://assets.anislet.dev/images/blog/favicon/favicon.png"]
 
   [params.app]
     title = "Anislet's Blog"
     noFavicon = false
-    svgFavicon = "https://assets.anislet.dev/images/blog/favicon.svg"
+    svgFavicon = "https://assets.anislet.dev/images/blog/favicon/favicon.svg"
 
   [params.search]
     enable = true
@@ -68,13 +68,13 @@ enableEmoji = true
       gravatarEmail = "orwill@anislet.dev"
       avatarURL = ""
       title = "Orwill Q. Song"
-      subtitle = "独立游戏开发、容器化和社会学"
+      subtitle = "独立游戏开发、容器化和社会传播学"
       typeit = false
       social = true
       disclaimer = ""
     [params.home.posts]
       enable = true
-      paginate = 2
+      paginate = 5
 
   [params.social]
       GitHub = "OrwillT"
