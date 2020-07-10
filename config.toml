@@ -50,7 +50,7 @@ enableEmoji = true
   keywords = []
   description = "Anislet's Blog"
   dateFormat = "2006-01-02"
-  images = ["https://assets.anislet.dev/images/blog/favicon/favicon.png"]
+  images = ["https://assets.anislet.dev/images/blog/poster.png"]
 
   [params.app]
     title = "Anislet's Blog"
