@@ -1,3 +1,205 @@
 baseURL = "https://blog.anislet.dev"
-languageCode = "en-us"
+defaultContentLanguage = "zh-cn"
+languageCode = "zh-CN"
+hasCJKLanguage = true
 title = "Anislet's Blog"
+theme = "LoveIt"
+enableRobotsTXT = true
+enableGitInfo = true
+enableEmoji = true
+
+[menu]
+  [[menu.main]]
+    identifier = "posts"
+    pre = ""
+    post = ""
+    name = "归档"
+    url = "/posts/"
+    title = ""
+    weight = 1
+  [[menu.main]]
+    identifier = "tags"
+    pre = ""
+    post = ""
+    name = "标签"
+    url = "/tags/"
+    title = ""
+    weight = 2
+  [[menu.main]]
+    identifier = "categories"
+    pre = ""
+    post = ""
+    name = "分类"
+    url = "/categories/"
+    title = ""
+    weight = 3
+  [[menu.main]]
+    identifier = "about"
+    pre = ""
+    post = ""
+    name = "关于"
+    url = "/about/"
+    title = ""
+    weight = 4
+
+[params]
+  version = "0.2.X"
+  defaultTheme = "auto"
+  gitRepo = "https://github.com/OrwillT/blog"
+  fingerprint = "sha256"
+  keywords = []
+  description = "Anislet's Blog"
+  dateFormat = "2006-01-02"
+  images = ["/images/avatar.png"]
+
+  [params.search]
+    enable = true
+    type = "lunr"
+
+  [params.home]
+    rss = 10
+    [params.home.profile]
+      enable = true
+      gravatarEmail = "orwill@anislet.dev"
+      avatarURL = ""
+      title = "Orwill Q. Song"
+      subtitle = "独立游戏开发、容器化和社会学"
+      typeit = false
+      social = true
+      disclaimer = ""
+    [params.home.posts]
+      enable = true
+      paginate = 2
+
+  [params.social]
+      GitHub = "OrwillT"
+      Twitter = "OrwillQSong"
+      Telegram = "OrwillQSong"
+      Email = "orwill@anislet.dev"
+      RSS = true
+
+  [params.header]
+    desktopMode = "fixed"
+    mobileMode = "auto"
+    [params.header.title]
+      logo = ""
+      name = "Anislet's Blog"
+      pre = "<i class='fas fa-hashtag'></i>"
+      post = ""
+      typeit = false
+
+  [params.footer]
+    enable = true
+    custom = ""
+    hugo = false
+    copyright = true
+    author = true
+    since = 2020
+    license = '<a rel="license external nofollow noopener noreffer" href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">CC BY-NC-SA 4.0</a>'
+
+  [params.section]
+    paginate = 20
+    dateFormat = "01-02"
+    rss = 10
+
+  [params.list]
+    paginate = 20
+    dateFormat = "01-02"
+    rss = 10
+
+  [params.page]
+    hiddenFromHomePage = false
+    hiddenFromSearch = false
+    twemoji = true
+    lightgallery = true
+    ruby = true
+    fraction = true
+    fontawesome = true
+    linkToMarkdown = true
+    rssFullText = false
+    [params.page.toc]
+      enable = true
+      keepStatic = false
+      auto = true
+    [params.page.code]
+      copy = true
+      maxShownLines = 10
+    [params.page.math]
+      enable = true
+      blockLeftDelimiter = ""
+      blockRightDelimiter = ""
+      inlineLeftDelimiter = ""
+      inlineRightDelimiter = ""
+      copyTex = true
+      mhchem = true
+    [params.page.mapbox]
+      accessToken = "pk.eyJ1Ijoib3J3aWxsIiwiYSI6ImNrY2Z0MGpjYTA0NzUycnFrN3I5bW9qZWwifQ.N_dU8p6LZruvlvzOEedZJw"
+      lightStyle = "mapbox://styles/mapbox/light-v10?optimize=true"
+      darkStyle = "mapbox://styles/mapbox/dark-v10?optimize=true"
+      navigation = true
+      geolocate = true
+      scale = true
+      fullscreen = true
+    [params.page.share]
+      enable = true
+      Twitter = true
+      Facebook = true
+      Weibo = true
+
+    [params.page.comment]
+      enable = false
+      [params.page.comment.telegram]
+        enable = false
+        siteID = "Pr8EZPVI"
+        limit = 5
+        height = "auto"
+        color = "343638"
+        colorful = true
+        dislikes = true
+        outlined = false
+
+[markup]
+  [markup.highlight]
+    codeFences = true
+    guessSyntax = true
+    lineNos = true
+    lineNumbersInTable = true
+    noClasses = false
+  [markup.goldmark]
+    [markup.goldmark.extensions]
+      definitionList = true
+      footnote = true
+      linkify = true
+      strikethrough = true
+      table = true
+      taskList = true
+      typographer = true
+    [markup.goldmark.renderer]
+      unsafe = true
+  [markup.tableOfContents]
+    startLevel = 2
+    endLevel = 6
+
+[author]
+  name = "Orwill Q. Song"
+  email = "orwill@anislet.dev"
+  link = "https://github.com/OrwillT"
+
+[Permalinks]
+  posts = ":year/:month/:filename"
+
+[mediaTypes]
+  [mediaTypes."text/plain"]
+    suffixes = ["md"]
+
+[outputFormats.MarkDown]
+  mediaType = "text/plain"
+  isPlainText = true
+  isHTML = false
+
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
+  page = ["HTML", "MarkDown"]
+  section = ["HTML", "RSS"]
+  taxonomy = ["HTML", "RSS"]
+  taxonomyTerm = ["HTML"]
