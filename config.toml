@@ -152,9 +152,9 @@ enableEmoji = true
       Weibo = true
 
     [params.page.comment]
-      enable = false
+      enable = true
       [params.page.comment.telegram]
-        enable = false
+        enable = true
         siteID = "Pr8EZPVI"
         limit = 5
         height = "auto"
