@@ -2,7 +2,6 @@
 title: "你好世界！"
 subtitle: "Hello, World!"
 date: 2020-07-10T15:12:25+08:00
-lastmod: 2020-07-10T17:34:25+08:00
 draft: false
 author: ""
 authorLink: ""
@@ -17,8 +16,8 @@ categories:
 hiddenFromHomePage: false
 hiddenFromSearch: false
 
-featuredImage: "https://assets.anislet.dev/images/blog/posts/hello-world/featured.jpg"
-featuredImagePreview: "https://assets.anislet.dev/images/blog/posts/hello-world/featured.jpg"
+featuredImage: "https://assets.anislet.dev/images/blog/posts/hello-world/cover.jpg"
+featuredImagePreview: "https://assets.anislet.dev/images/blog/posts/hello-world/cover.jpg"
 
 toc:
   enable: true
