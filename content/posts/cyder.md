@@ -29,7 +29,11 @@ license: ""
 
 <!--more-->
 
-{{< style "text-align:center" >}}<i class="fas fa-pepper-hot"> Spicy + <i class="fas fa-spider"> Spider = <i class="fa fa-cocktail"> Cyder</i></i></i>{{< /style >}}
+{{< style "text-align:center" >}}
+<i class="fas fa-pepper-hot"> Spicy +</i>
+<i class="fas fa-spider"> Spider =</i>
+<i class="fa fa-cocktail"> Cyder</i>
+{{< /style >}}
 
 {{< admonition warning "请注意！" open >}}
 本文章内容在未来必然会有破坏性改动，敬请留意。
@@ -37,7 +41,7 @@ license: ""
 
 ## 读音
 
-Cyder `/ˈsaɪdər/` 和苹果酒 Cider 是一个读音。
+Cyder `/ˈsaɪdər/` 与 Cider 发音相同。
 
 ## 介绍
 
