@@ -13,8 +13,8 @@ categories: []
 hiddenFromHomePage: false
 hiddenFromSearch: false
 
-featuredImage: "https://assets.anislet.dev/images/blog/posts/{{ replace .Name "-" " " }}/cover.png"
-featuredImagePreview: "https://assets.anislet.dev/images/blog/posts/{{ replace .Name "-" " " }}/cover.png"
+featuredImage: "https://assets.anislet.dev/images/blog/posts/{{ .Name }}/cover.png"
+featuredImagePreview: "https://assets.anislet.dev/images/blog/posts/{{ .Name }}/cover.png"
 
 toc:
   enable: true
